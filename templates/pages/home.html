@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma Page d'Accueil</title>
+    <link rel="stylesheet" href="../pages-style/home.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur Django-xls</h1>
+    </header>
+    <main>
+        <section class="content">
+            <h2>Découvrez notre application</h2>
+            <p>C'est une application géniale qui vous permet de gérer vos fichiers Excel.</p>
+            <p>Connectez-vous pour commencer.</p>
+            <a href="{% url 'login' %}" class="button">Se connecter</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Django-xls. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
